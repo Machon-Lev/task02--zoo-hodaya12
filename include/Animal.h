@@ -21,4 +21,5 @@ public:
 	virtual void move();
 	Location getLocation() const;
 	Animal(const string&, const Location&);
+	virtual ~Animal() = default;
 };
